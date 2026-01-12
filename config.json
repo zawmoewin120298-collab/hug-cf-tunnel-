@@ -1,0 +1,15 @@
+{
+    "inbounds": [{
+        "port": 3000,
+        "protocol": "vless",
+        "settings": {
+            "clients": [{"id": "your-uuid-here-12345"}],
+            "decryption": "none"
+        },
+        "streamSettings": {
+            "network": "ws",
+            "wsSettings": {"path": "/vless-path"}
+        }
+    }],
+    "outbounds": [{"protocol": "freedom"}]
+}
