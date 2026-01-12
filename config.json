@@ -3,7 +3,7 @@
         "port": 3000,
         "protocol": "vless",
         "settings": {
-            "clients": [{"id": "your-uuid-here-12345"}],
+            "clients": [{"id": "f2e17b4d-22fd-44a4-90db-40649717be8e"}],
             "decryption": "none"
         },
         "streamSettings": {
